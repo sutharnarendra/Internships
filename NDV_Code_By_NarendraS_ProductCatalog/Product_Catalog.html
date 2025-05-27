@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog Home Page</title>
+    <style>
+        .main{width:100%;padding:1rem;box-sizing:border-box;background-color:black;height:100%;border-radius:12px;}
+        
+        h2 {
+            background-color: black; 
+            color: white;              
+            padding: 1rem;             
+            border-radius: 8px;        
+            text-align: center; 
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .item {
+            background: #fff;
+            border: 1px solid black;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 12px;
+        }
+        .item:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+        .item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover; 
+            display: block;
+            border-radius: 12px; 
+        }
+
+        .money {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border: 2px solid #4CAF50; 
+            border-radius: 12px;        
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        footer {
+            background-color: #222;
+            color: #ccc;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 12px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <center><hr><h2>Product Catalog</h2><hr></center>
+    <div class="main">
+        <div class="grid">
+    <div class="item">
+        <span>Premium Blazzer</span>
+        <img src="https://imgs.search.brave.com/RQC7dBB9WKiOyxgHNR15r1J6tpMWVdNSl4Aip7ew4ws/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vSW1oQ2lB/UWJxdzVzcjh1NjRN/UWpCU201V3AzTEE2/c0ZmaVgxemFYNHRK/TS9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTl0/WldScC9ZUzVwYzNS/dlkydHdhRzkwL2J5/NWpiMjB2YVdRdk1U/TXovTWpZME9UVXlO/eTl3YUc5MC9ieTlp/YkdGdWF5MWliR0Y2/L1pYSXRiVzlqYTNW/d0xXMWwvYm5NdFoz/SmxlUzF6ZFdsMC9M/V1p5YjI1MExYWnBa/WGN1L2FuQm5QM005/TmpFeWVEWXgvTWla/M1BUQW1hejB5TUNa/ai9QV2t6WjJWRVZ6/ZFZkelJOL01VZEZR/WEE0V0hSaGFrVTAv/U1cxV1ZFdzFMVjh3/UlZOcS9OMnRKVkhZ/MVNITTk.jpeg">
+        <p>Description: A premium quality Blazzer in blue color suited for any formal meetings.</p>
+        <span class="money">$79.99</span>
+    </div>
+    <div class="item">
+        <span>Formal Trouser</span>
+        <img src="https://imgs.search.brave.com/UFqQ0hWwflFZ9zm0OI5dUzNAWs_2bgNGg4N8jMwaWvE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vb1c2THVt/MWJuSUhzOW1EUDQx/cXJPOWo0Rzd3UXR3/R0pPeWwtNFhXWlI4/US9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlq/YjI1MC9aVzUwTG0x/dmMzTXVZMjh1L2RX/c3ZhVzFoWjJWekwy/VjQvZEhKaFpYaDBj/bUZzWVhKbi9aUzg1/TmpZNE9EYzFOemhm/L01ERXVhbkJu.jpeg">
+        <p>A Premium Trouser matching with blue blazzer and a part of well defined combo of formal clothes(Suit).</p>
+        <span class="money">$19.99</span>
+    </div>
+    <div class="item">
+        <span>Formal White Shirt</span>
+        <img src="https://imgs.search.brave.com/6l2S29ix92dhZ-ph80YUNflfsbh1CXYYgelz-YmS1xU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vNzFFRVQ5/b0pwRm5sYkZIV1pH/dktkWG5iUk1TYUZf/OV9UaHhmSWVSTGxl/VS9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlw/YldGbi9aUzVxYjNO/aVlXNXJMbU52L2JT/OXBjeTlwYldGblpT/OUsvYjNOQ1lXNXJM/elZHVlZSZi9NVEJm/U2s5VFgwRmZRa0ZP/L1MxOVNSVk5GVWxa/RlgxZEkvU1ZSRlgw/MUJTVTRfSkhCbi9j/RjlrWlhOcmRHOXdY/M1JvL2RXMWlibUZw/YkY5c1p5UQ.jpeg">
+        <p>Finding something to wear under the blazzer then you are on right tracks.</p>
+        <span class="money">$11.29</span>
+    </div>
+    <div class="item">
+        <span>Formal Blue Shirt</span>
+        <img src="https://imgs.search.brave.com/8a4fU4rLHBCf2Fz0AvKwvxf2oduKYPhsFc6aex0r8Rg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vUTF6c1U4/R2hvWU1rRFNvaHdS/VTdRT0ljQ1pkNHFi/aFA5UzNvSWp1b29x/OC9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlw/YldGbi9aUzVxYjNO/aVlXNXJMbU52L2JT/OXBjeTlwYldGblpT/OUsvYjNOQ1lXNXJM/elZITVRCZi9OekJm/VkZKQlZrVk1SVkpm/L1FreFZSVjlOUVVs/T1B5UncvWjNCZlpH/VnphM1J2Y0Y5MC9h/SFZ0WW01aGFXeGZi/R2Nr.jpeg">
+        <p>Another suited Shirt For a Formal Meeting.</p>
+        <span class="money">$11.59</span>
+    </div>
+    <div class="item">
+        <span>Mens Striped Tie</span>
+        <img src="https://imgs.search.brave.com/QlfseqjZLH-jee8nC5in55us6gXITml8s1FT9GyrphY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vdVRjRnVy/OEtFUWRYdXY5UTdF/dWh0eGFkekZYSExS/TlRUcnNLVUJoQjN2/WS9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTl0/TG0xbC9aR2xoTFdG/dFlYcHZiaTVqL2Iy/MHZhVzFoWjJWekww/a3YvT1RGWk5VSmpT/MjlsSzB3dS9hbkJu.jpeg">
+        <p>JEMYGINS Mens Striped Tie and Lapel Pin Necktie Pocket Square and Tie Clip Sets for Business Casual 4PCS</p>
+        <span class="money">$7.99</span>
+    </div>
+    <div class="item">
+        <span>Formal Brown Shoe and Belt</span>
+        <img src="https://imgs.search.brave.com/wdNCv8akdU79TG5vp-JacLsr28cgsjB8TLUwPCspZtg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vNlVjbXhw/RUtqZ0cxWGtGektm/VGlPbXR6S0hkWVBR/cmczSklYVFE3eGQ2/SS9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlw/TG5CcC9ibWx0Wnk1/amIyMHZiM0pwL1oy/bHVZV3h6TDJZekwy/UXovTHpRMEwyWXpa/RE0wTkRnMS9Nemhq/TVRNMVltTmxaV1Ex/L056RTFZelV3WkRn/NVlUTmkvTG1wd1p3.jpeg">
+        <p>Allen Edmonds Brown Formal Shoes and part of perfect blue suit combo pack</p>
+        <span class="money">$16.99</span>
+    </div>
+</div>
+</div>
+<footer>
+    <div class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div>
+      © 2025 ProductCompany. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
