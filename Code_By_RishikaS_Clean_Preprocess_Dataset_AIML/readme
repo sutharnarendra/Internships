@@ -1,4 +1,4 @@
-Netflix Titles Dataset Cleaning and Preprocessing
+***Netflix Titles Dataset Cleaning and Preprocessing***
 This project involves cleaning, preprocessing, and exploring the Netflix Titles dataset using Python libraries such as Pandas and NumPy. The dataset provides information about movies and TV shows available on Netflix as of 2021.
 🔍 Dataset Source
 Kaggle: https://www.kaggle.com/datasets/padmapriyatr/netflix-titles
