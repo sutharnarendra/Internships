@@ -24,9 +24,6 @@ Download filtered data as CSV
 
 1. Clone this repository
 
-git clone https://github.com/your-username/covid19-dashboard.git
-cd covid19-dashboard
-
 2. Create and activate a virtual environment (recommended)
 
 python -m venv venv
