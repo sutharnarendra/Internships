@@ -46,7 +46,7 @@ streamlit run app.py
 After running, open your browser to the address shown (usually http://localhost:8501).
 
 ## 📊 Data Source
-COVID-19 Dataset by Imdevskp on Kaggle
+COVID-19 Dataset by Imdevskp on Kaggle (https://www.kaggle.com/datasets/imdevskp/corona-virus-report/data)
 
 ## 📁 Project Structure
 
